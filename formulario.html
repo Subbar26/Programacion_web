@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Developer</title>
+
+    <link rel="stylesheet" type="text/css" href="style_form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <script src="https://kit.fontawesome.com/23fa25c632.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script/form.js"></script>
+
+</head>
+
+
+<body>
+    <h1 class="titulo1"><b>Web</b>Developer</h1>
+
+    <div class="form">
+        <p style="text-align: center;">formulario de afiliación</p>
+
+        <form method="get" action="resultado.html" name="formulario">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <input class="input " type="text" placeholder="Nombre completo" id="user">
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <input class="input " type="email" placeholder="Email" id="email">
+            </div>
+            <div>
+                <i class="fa-solid fa-phone fa-rotate-270"></i>
+                <input class="input " type="tel" placeholder="text" id="tel"><br>
+            </div>
+
+            <div class="field has-addons">
+                <div class="control is-expanded">
+                    <input class="input" type="text" id="gustos">
+                </div>
+                <div class="control">
+                    <a onclick="insertar_fila()" class="button is-success is-outlined">Gustos</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="columns">
+
+                    <div class="column is-2" style="background-color: #27a844; border-radius: 7px;">
+                        <i class="fa-regular fa-flag " style="color: #ffffff;"></i>
+                    </div>
+                    <div class="column">
+                        <table class="table is-bordered is-fullwidth" id="tabla_gustos">
+                            <th>
+                                <font color="grey">Gusto</font>
+                            </th>
+                            <th>
+                                <font color="grey">%</font>
+                            </th>
+                            <th>
+                                <font color="grey">edit</font>
+                            </th>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: left;" id="contenedorbotones"></div><br>
+
+            <a class="link1" href="https://sites.google.com/view/dweb1-uis" target="_">Ir a Site de P Web</a>
+    </div><br>
+    </form>
+    </div>
+
+</body>
+
+</html>

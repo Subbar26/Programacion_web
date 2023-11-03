@@ -1,0 +1,48 @@
+body {
+    background: #688d8b46;
+}
+
+.titulo1 {
+    padding-top: 3%;
+    text-align: center;
+    font-family: cambria;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.form {
+    border: 1px solid #688d8b46;
+    background: #ffffff;
+    width: 400px;
+    height: 100%;
+    margin: 2%;
+    padding: 2%;
+    margin: auto;
+}
+
+.form p {
+    margin-top: 5px;
+}
+
+i {
+    position: relative;
+    left: 90%;
+    top: 30px;
+    z-index: 50;
+    color: grey;
+}
+
+.field {
+    margin-top: 30px;
+    height: 90%;
+}
+
+.column i {
+    top: auto;
+    left: auto;
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

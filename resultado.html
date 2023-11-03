@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Resultado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <center>
+        <h1 style="text-align: center;" class="title"><br>
+            <b>Resultado</b></h1>
+        <div class="column">
+            <div class="content_thead" id="contentprin"></div>
+            <table class="table is-bordered is-striped is-hoverable" id="tabla_resultados">
+                <thead>
+                    <tr>
+                        <th style="
+                            background-color: rgba(20, 119, 141, 0.868);
+                            color: #ffffff;
+                            font-size: 30px;
+                            text-align: left;
+                            display: flex;
+                            gap: 20px;
+                  " id="titulo">
+                            <img src="images/cara_feliz.jpg" alt="" height="90px" width="100px">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Email
+                            <span id="email" class="tag is-link"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Telefono
+                            <span id="tel" class="tag is-info"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gusto
+                            <span id="gusto" class="tag is-success"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Porcentaje%
+                            <span id="porcentaje" class="tag is-danger"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </center>
+</body>
+<script type="text/javascript " src="script/table.js "></script>
+
+</html>
